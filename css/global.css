@@ -1,0 +1,79 @@
+/*-- global --*/
+@import url("https://fonts.googleapis.com/css2?family=Capriola&display=swap");
+
+:root {
+  --clr-1: #111111;
+  --clr-2: #ffffff;
+  --clr-2-tr: #ffffff20;
+  --clr-3: #1a84c2;
+  --clr-3-tr: #1a84c220;
+  --clr-4: #1a84c2;
+  --clr-4-tr: #1a84c220;
+}
+
+@font-face {
+  font-family: Capriola;
+  src: url(https://www.baster.vip/font/CapriolaHand-Regular.ttf);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a,
+li,
+button {
+  font-family: "Capriola", sans-serif;
+}
+
+h1 {
+  font-size: 10rem;
+  font-weight: 700;
+  line-height: 0.6;
+}
+h2 {
+  font-size: 2rem;
+  font-weight: 900;
+  line-height: 1.2;
+
+  margin-bottom: 1rem;
+}
+h3 {
+  font-size: 3rem;
+  line-height: 1.2;
+}
+h4 {
+  font-size: 1.5rem;
+}
+
+p,
+li,
+a,
+button {
+  font-size: 1.5rem;
+}
+
+a {
+  /* color: var(--clr-1); */
+  color: #000;
+  transition: 0.3s;
+}
+a:hover {
+  color: #fff;
+}
+span {
+  color: white;
+}
+
+/* ::-webkit-scrollbar {
+  width: 0.5rem;
+  background: var(--clr-1);
+}
+::-webkit-scrollbar-track {
+  border-left: none;
+}
+::-webkit-scrollbar-thumb {
+  background: #b3954e;
+} */
