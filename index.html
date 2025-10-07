@@ -141,16 +141,53 @@
 
     <!-- info -->
 
-    <!-- <section id="info">
-      <div class="container">
-        <div id="info-box">
-          <h2>"Join the pack, grow your stack."</h2>
+  <div class="image-gallary-section">
+	<div class="card">
+		<video width="650px" height="auto" controls autoplay loop muted>
+  <source src="vid1.mp4" type="video/mp4">
+  <source src="vid1.mp4" type="video/ogg">
+Your browser does not support the video tag.
+</video>
+	</div>
+</div>
 
-          <img src="img/logo/logo.png" alt="timmy" />
-        </div>
-      </div>
-    </section> -->
+<style>
+.image-gallary-section {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  transition: all 0.5s ease-in-out;
 
+  &:hover {
+    > :not(:hover) {
+      opacity: 0.4;
+    }
+  }
+
+  .card {
+    transition: transform 0.5s ease;
+    height: auto;
+    width: 650px;
+    border-radius: 10px;
+    overflow: hidden;
+	border: 2px solid #e99f00;
+
+    &:hover {
+      cursor: zoom-in;
+      transform: scale(1.1);
+    }
+
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: contain;
+    }
+  }
+}
+</style>
     <!-- token -->
 
     <section id="token">
